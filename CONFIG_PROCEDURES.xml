@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+<aplicativo id="1">
+    <nombre>Alerta Judiciales programadas</nombre>
+    <comando>wilson1.pkg_cobranzas.sp_envia_alertajudicial</comando>
+  <nombre_archivo>reporte_alertaprogramadajudicial.xls</nombre_archivo>
+  </aplicativo>
+
+  <aplicativo id="2">
+    <nombre>Alerta Judiciales 2 meses</nombre>
+    <comando>wilson1.pkg_cobranzas.sp_envia_seguimiento</comando>
+    <nombre_archivo>reporte_alertaseguimientojudicial.xls</nombre_archivo>
+  </aplicativo>
+  
+</configuration>
